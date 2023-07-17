@@ -3,7 +3,7 @@
 <div align="center">
   
 
-  <h3><b>Awesome Books Project</b></h3>
+  <h3><b>Awesome Books Project With ES6</b></h3>
 
 </div>
 
@@ -28,7 +28,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="Awesome Books"></a>
+# 📖 [Awesome Books:ES6] <a name="Awesome Books"></a>
 
 
 
@@ -45,7 +45,7 @@
 </details>
 
 
-### Key Features <a name="Awesome Books"></a>
+### Key Features <a name="Awesome Books:ES6"></a>
 
 
 - **[Awesome Books]**
@@ -66,7 +66,7 @@ In order to run this project you need: Run Linters
 
 Clone this repository to your desired folder:
 
-https://github.com/newtonah0/Awesome-books.git
+https://github.com/newtonah0/Awesome-books-ES6.git
 
 
 ### Install
@@ -118,7 +118,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/newtonah0/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/newtonah0/Awesome-books-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
