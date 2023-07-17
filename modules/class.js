@@ -1,5 +1,3 @@
-/* eslint-disable max-classes-per-file */
-/* eslint-disable max-len */
 export default class listBooks {
   static getBooks() {
     let books = [];
