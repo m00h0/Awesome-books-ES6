@@ -1,5 +1,3 @@
-/* eslint-disable max-classes-per-file */
-/* eslint-disable max-len */
 import Book from './modules/navigation.js';
 import listBooks from './modules/class.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
