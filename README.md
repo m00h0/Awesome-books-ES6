@@ -107,7 +107,7 @@ npx eslint .
 
 👤 **Bianca**
 
-- GitHub: [@githubhandle](https://github.com/BiancaMe)
+- GitHub: [@BiancaMe](https://github.com/BiancaMe)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
