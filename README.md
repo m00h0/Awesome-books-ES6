@@ -44,7 +44,7 @@
 </details>
 
 
-### Key Features <a name="Awesome Books:ES6"></a>
+### Key Features <a name="key-features"></a>
 
 
 - **[Awesome Books]**
