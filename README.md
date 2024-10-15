@@ -76,7 +76,7 @@ Install this project with:
 npm install
 ```
 
-### Usage
+### Usage   <a name="usage"></a>
 
 To run the project, execute the following command: 
 
