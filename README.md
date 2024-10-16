@@ -84,7 +84,7 @@ To run the project, execute the following command:
 
 
 
-### Run tests
+### Run tests  <a name="run-tests"></a>
 
 To run tests, run the following command:
 
