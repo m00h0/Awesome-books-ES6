@@ -24,39 +24,43 @@ window.addEventListener('load', (e) => {
 // Navigation
 document.querySelector('#nav-add-new-a').addEventListener('click', (e) => {
   e.preventDefault();
-  const addNew = document.querySelector('#add-new');
-  addNew.classList.remove('hiden');
-
-  const list = document.querySelector('#list');
-  list.classList.add('hiden');
-
-  const contact = document.querySelector('#contact');
-  contact.classList.add('hiden');
+  window.location.hash = '#add-new';
+  navigate();
 });
 
 document.querySelector('#nav-list-a').addEventListener('click', (e) => {
   e.preventDefault();
-  const list = document.querySelector('#list');
-  list.classList.remove('hiden');
-
-  const addNew = document.querySelector('#add-new');
-  addNew.classList.add('hiden');
-
-  const contact = document.querySelector('#contact');
-  contact.classList.add('hiden');
+  window.location.hash = '#list';
+  navigate();
 });
 
-document.querySelector('#nav-contact-a').addEventListener(('click'), (e) => {
+document.querySelector('#nav-contact-a').addEventListener('click', (e) => {
   e.preventDefault();
-  const contact = document.querySelector('#contact');
-  contact.classList.remove('hiden');
-
-  const addNew = document.querySelector('#add-new');
-  addNew.classList.add('hiden');
-
-  const list = document.querySelector('#list');
-  list.classList.add('hiden');
+  window.location.hash = '#contact';
+  navigate();
 });
 
-const date = document.querySelector('.date');
-date.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+window.addEventListener('hashchange', navigate);
+
+function navigate() {
+  const hash = window.location.hash;
+
+  const addNew = document.querySelector('#add-new');
+  const list = document.querySelector('#list');
+  const contact = document.querySelector('#contact');
+
+  addNew.classList.add('hiden');
+  list.classList.add('hiden');
+  contact.classList.add('hiden');
+
+  if (hash === '#add-new') {
+    addNew.classList.remove('hiden');
+  } else if (hash === '#list') {
+    list.classList.remove('hiden');
+  } else if (hash === '#contact') {
+    contact.classList.remove('hiden');
+  }
+}
+
+// Initial navigation based on the current hash
+navigate();
