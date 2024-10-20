@@ -49,16 +49,16 @@ function navigate() {
   const list = document.querySelector('#list');
   const contact = document.querySelector('#contact');
 
-  addNew.classList.add('hiden');
-  list.classList.add('hiden');
-  contact.classList.add('hiden');
+  addNew.classList.add('hidden');
+  list.classList.add('hidden');
+  contact.classList.add('hidden');
 
   if (hash === '#add-new') {
-    addNew.classList.remove('hiden');
+    addNew.classList.remove('hidden');
   } else if (hash === '#list') {
-    list.classList.remove('hiden');
+    list.classList.remove('hidden');
   } else if (hash === '#contact') {
-    contact.classList.remove('hiden');
+    contact.classList.remove('hidden');
   }
 }
 
