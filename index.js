@@ -23,26 +23,33 @@ window.addEventListener('load', (e) => {
 // Navigation
 document.querySelector('#nav-add-new-a').addEventListener('click', (e) => {
   e.preventDefault();
+  console.log('Add New clicked');
   window.location.hash = '#add-new';
   navigate();
 });
 
 document.querySelector('#nav-list-a').addEventListener('click', (e) => {
   e.preventDefault();
+  console.log('List clicked');
   window.location.hash = '#list';
   navigate();
 });
 
 document.querySelector('#nav-contact-a').addEventListener('click', (e) => {
   e.preventDefault();
+  console.log('Contact clicked');
   window.location.hash = '#contact';
   navigate();
 });
 
-window.addEventListener('hashchange', navigate);
+window.addEventListener('hashchange', () => {
+  console.log('Hash changed to', window.location.hash);
+  navigate();
+});
 
 function navigate() {
   const hash = window.location.hash;
+  console.log('Navigating to', hash);
 
   const addNew = document.querySelector('#add-new');
   const list = document.querySelector('#list');

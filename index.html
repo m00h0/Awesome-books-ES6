@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -30,14 +31,13 @@
      <section id="list" class="list">
         <h1>Awesome-books</h1>
         <table id="list-books">
-      
         </table>
      </section>      
      <section id="add-new" class="hidden add-new">
         <h2>Add a new book</h2>
         <form id="form" action="">
-            <input type="text" id="title"  class="from-control" name="title" placeholder="Title" required>
-            <input type="text" id="author"  name="author" placeholder="Author" required>
+            <input type="text" id="title" class="from-control" name="title" placeholder="Title" required>
+            <input type="text" id="author" name="author" placeholder="Author" required>
             <button type="submit" id="add" placeholder="Add">Add</button>
         </form>
     </section>
