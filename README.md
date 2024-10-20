@@ -31,7 +31,7 @@
 
 
 
-**[Ahmed & Bianca Awesome Books]** is a Awesome Books Website.
+**[Awesome Books]** Website for Adding a new Awesome Books .
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -98,7 +98,7 @@ npx eslint .
 
 ### Deployment   <a name="deployment"></a>
 
- ( Coming soon. )
+ ( https://m00h0.github.io/Awesome-books-ES6/ )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
